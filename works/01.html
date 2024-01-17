@@ -43,7 +43,7 @@
           <div class="p-work-firstview__text-area">
             <h3 class="p-work-firstview__text-titile">開発環境</h3>
             <!-- 記載番号：3 -->
-            <p class="p-work-firstview__text">Ruby / Ruby on Rails / MySQL / GitHub / Heroku / Visual Studio Code / Trello</p>
+            <p class="p-work-firstview__text">Ruby / Ruby on Rails / JavaScript / MySQL / GitHub / AWS / Visual Studio Code / Notion</p>
             <!-- 記載番号：4 -->
             <p class="p-work-firstview__text-link"><a href="https://github.com/crow0808/furima-40115" target="_blank">https://github.com/crow0808/furima-40115</a></p>
           </div>
@@ -84,12 +84,12 @@
                 <tr>
                   <th>mail</th>
                   <!-- 記載番号：9 -->
-                  <td>buyer_user@hoge.com</td>
+                  <td>test@test.com</td>
                 </tr>
                 <tr>
                   <th>PASS</th>
                   <!-- 記載番号：10 -->
-                  <td>buyeruser1234</td>
+                  <td>a11111</td>
                 </tr>
               </table>
               <h4>購入テスト用カード情報</h4>
@@ -147,13 +147,16 @@
                 <!-- 記載番号：15 -->
                 <div class="p-work-about__item-block-text">
                   <p>
-                    追加実装についてのテストコードを記述するときに苦労しました。
+                    クレジットカードの決済処理を記述するときに苦労しました。
                   </p>
                   <p>
-                    フォロー機能については、結合テストを書き、ユーザーが実際に操作するときの状況を確認しようと試みました。しかし、フォローのボタンの変化は非同期通信を利用して実装しているため、テストコードに工夫が必要でした。
+                    クレジットカードの決済処理では、PAY.JPというクレジットカード決済代行サービスを利用しましたが、クレジットカード情報を一度PAY.JPに送りトークンを発行してから、そのトークをアプリケーションのサーバーサイドへ送リ処理するという、構造を理解することに時間がかかりました。
                   </p>
                   <p>
-                    公式ドキュメントを読み直したり、同様のケースをインターネットで探したりすることで、確からしい結合テストコードを記述することができました。カリキュラムでは学ばなかった部分であるため非常に苦労しましたが、大変勉強になりました。テストコードの重要性も再認識することができました。
+                    カリキュラムを読み直したり、同様のケースをインターネットで探したりすることで、なんとか記述することができました。非常に苦労しましたが、大変勉強になりました。
+                  </p>
+                  <p>
+                    また、現在のアプリケーションでは、購入の際に毎回クレジットカード情報を入力する必要があるため、クレジットカードを登録しておける機能も実装したいなと、新たな知識への意欲も高まりました。
                   </p>
                 </div>
               </div>
